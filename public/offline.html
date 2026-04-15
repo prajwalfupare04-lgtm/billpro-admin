@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Agro Billing – Offline</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: Arial, sans-serif; background:#0a0f1e; color:#f0f4ff; min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:24px; }
+    .card { background:#111827; border:1px solid #2a3a55; border-radius:20px; padding:48px 32px; max-width:400px; }
+    .icon { font-size:64px; margin-bottom:20px; }
+    h1 { font-size:24px; font-weight:800; margin-bottom:12px; color:#f0f4ff; }
+    p  { color:#8ba4c8; font-size:14px; line-height:1.6; margin-bottom:24px; }
+    .tip { background:#1a2234; border-radius:12px; padding:16px; font-size:13px; color:#8ba4c8; margin-bottom:24px; text-align:left; }
+    .tip strong { color:#22c55e; }
+    button { background:linear-gradient(135deg,#15803d,#16a34a); color:white; border:none; padding:14px 32px; border-radius:12px; font-size:15px; font-weight:700; cursor:pointer; }
+    button:hover { opacity:0.9; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">📵</div>
+    <h1>You're Offline</h1>
+    <p>Agro Billing Admin needs a connection to load for the first time. Once loaded, it works fully offline.</p>
+    <div class="tip">
+      <strong>✅ Good news:</strong> All your invoices are saved locally in your browser. Once you're back online and the app loads, all data will be available — no cloud, no server.
+    </div>
+    <button onclick="window.location.reload()">🔄 Try Again</button>
+  </div>
+</body>
+</html>

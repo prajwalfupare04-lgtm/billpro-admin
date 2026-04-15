@@ -1,0 +1,22 @@
+{
+  "name": "Agro Billing Admin",
+  "short_name": "AgroBilling",
+  "description": "Admin Billing System for Kisan Bharti Agro Tech Services",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#15803d",
+  "background_color": "#0a0f1e",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "New Invoice", "short_name": "Invoice", "url": "/", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Dashboard",   "short_name": "Dashboard", "url": "/",  "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ],
+  "prefer_related_applications": false
+}
